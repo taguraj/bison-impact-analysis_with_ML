@@ -1,0 +1,298 @@
+Dataset title:  PBG01 Plant species composition in the Patch Burning-grazing Experiment at Konza Prairie
+
+Dataset ID:  doi:10.6073/pasta/b1e152cc621a32c7aa623bafc016ce6c
+Dataset Creator
+
+	Name:		John Blair
+	
+	Address:
+			116 Ackert Hall, Division of Biology, Kansas State University
+			Manhattan, KS 66506  US
+	
+	Phone:		785-532-7065
+	Email:		jblair@ksu.edu
+
+
+Metadata Provider
+
+	Organization:	Konza LTER
+	URL:		http://www.konza.ksu.edu/
+
+
+Dataset Abstract
+
+
+
+Dataset Keywords
+
+	Disturbance
+	Populations
+	Others
+	cattle
+	grazing
+	Herbivores
+	Konza Prairie
+	Konza Prairie Biological Station
+	LTER
+	patch-burn grazing
+	plant species composition
+
+
+Intellectual Rights
+
+
+
+Distribution
+
+	Online distribution:  http://lter.konza.ksu.edu/content/pbg01-plant-species-composition-patch-burning-grazing-experiment-konza-prairie
+
+
+Geographic Coverage
+
+
+	Bounding Coordinates
+
+		Geographic description:	C1SB: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned annually in the spring.
+		West bounding coordinate:	-96.5757
+		East bounding coordinate:	-96.5634
+		North bounding coordinate:	39.1167
+		South bounding coordinate:	39.1063
+	
+		Geographic description:	C1A: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned annually in the spring.
+		West bounding coordinate:	-96.5508
+		East bounding coordinate:	-96.5385
+		North bounding coordinate:	39.0835
+		South bounding coordinate:	39.073
+	
+		Geographic description:	C3C: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.
+		West bounding coordinate:	-96.556
+		East bounding coordinate:	-96.5385
+		North bounding coordinate:	39.0884
+		South bounding coordinate:	39.0785
+	
+		Geographic description:	C3SA: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.
+		West bounding coordinate:	-96.565
+		East bounding coordinate:	-96.5537
+		North bounding coordinate:	39.1162
+		South bounding coordinate:	39.0995
+	
+		Geographic description:	C3B: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.
+		West bounding coordinate:	-96.5534
+		East bounding coordinate:	-96.5385
+		North bounding coordinate:	39.0961
+		South bounding coordinate:	39.0874
+	
+		Geographic description:	C3A: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.
+		West bounding coordinate:	-96.5534
+		East bounding coordinate:	-96.5385
+		North bounding coordinate:	39.098
+		South bounding coordinate:	39.0906
+	
+		Geographic description:	C3SB: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.
+		West bounding coordinate:	-96.5603
+		East bounding coordinate:	-96.5385
+		North bounding coordinate:	39.112
+		South bounding coordinate:	39.0932
+	
+		Geographic description:	C3SC: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed.
+		West bounding coordinate:	-96.555
+		East bounding coordinate:	-96.5385
+		North bounding coordinate:	39.1176
+		South bounding coordinate:	39.1053
+	
+
+
+
+Temporal Coverage
+
+	Start Date:  2008-05-01
+	End Date:  2021-12-31
+
+Maintenance
+
+	
+          ongoing
+        
+
+
+Dataset Contact
+
+
+
+Methods
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+Data Table
+
+	Entity Name:  PBG011
+	Entity Description:  This data set includes canopy cover of all plant species is recorded in 20 circular 10 m2 plots in watersheds of the patch-burn grazing experiment. Plots are arranged in 4 transects (A-D) of 5 plots each. Pre-treatment data was collected in 2008 from all units except C1SB, and from all units in 2009. Cattle grazing started in 2010 in C03A/C03B/C03C and C01A and in 2011 in C3SA/C3SB/C3SC and C1SB.
+	Object Name:  PBG011.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  1
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+	Number of Records:  61216
+
+
+
+Attributes
+
+	Attribute Name:  DataCode
+	Attribute Label:  DataCode
+	Attribute Definition:  Dataset code
+	Storage Type:  string
+	Measurement Scale: 
+		Dataset code
+	Missing Value Code: 
+
+
+	Attribute Name:  RecType
+	Attribute Label:  RecType
+	Attribute Definition:  Record type
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  RecYear
+	Attribute Label:  RecYear
+	Attribute Definition:  Year of sample
+	Storage Type:  
+	Measurement Scale: 
+		Units:		Year (YYYY)
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  RecMonth
+	Attribute Label:  RecMonth
+	Attribute Definition:  month of record
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  RecDay
+	Attribute Label:  RecDay
+	Attribute Definition:  day of record
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  Watershed
+	Attribute Label:  Watershed
+	Attribute Definition:  Watershed of treatment
+	Storage Type:  string
+	Measurement Scale: 
+		Watershed of treatment
+	Missing Value Code: 
+
+
+	Attribute Name:  SoilType
+	Attribute Label:  SoilType
+	Attribute Definition:  Soil type in which data were collected
+	Storage Type:  string
+	Measurement Scale: 
+		Soil type in which data were collected
+	Missing Value Code: 
+
+
+	Attribute Name:  Transect
+	Attribute Label:  Transect
+	Attribute Definition:  Transect
+	Storage Type:  string
+	Measurement Scale: 
+		Transect
+	Missing Value Code: 
+
+
+	Attribute Name:  Plot
+	Attribute Label:  Plot
+	Attribute Definition:  Plot Number
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  SpeCode
+	Attribute Label:  SpeCode
+	Attribute Definition:  Species code
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  AB_genus
+	Attribute Label:  AB_genus
+	Attribute Definition:  Abbreviation of genus
+	Storage Type:  string
+	Measurement Scale: 
+		Abbreviation of genus
+	Missing Value Code: 
+
+
+	Attribute Name:  Ab_species
+	Attribute Label:  Ab_species
+	Attribute Definition:  Abbreviation of species
+	Storage Type:  string
+	Measurement Scale: 
+		Abbreviation of species
+	Missing Value Code: 
+
+
+	Attribute Name:  CoverClass
+	Attribute Label:  CoverClass
+	Attribute Definition:  species cover class
+	Storage Type:  string
+	Measurement Scale: 
+		1= 0-1% cover
+		2= 1-5% cover
+		3= 5-25% cover
+		4= 25-50% cover
+		5= 50-75% cover
+		6= 75-95% cover
+		7= 95-100% cover
+	Missing Value Code: 
+
+
+	Attribute Name:  Pid
+	Attribute Label:  Pid
+	Attribute Definition:  Personnel id who collected the data
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  Comments
+	Attribute Label:  Comments
+	Attribute Definition:  comments for the data
+	Storage Type:  string
+	Measurement Scale: 
+		comments for the data
+	Missing Value Code: 
+
+

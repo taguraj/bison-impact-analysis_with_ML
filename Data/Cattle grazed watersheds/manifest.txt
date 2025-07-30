@@ -1,0 +1,5 @@
+Manifest file for knb-lter-knz.62.13.zip created on Wed Jul 30 21:19:15 UTC 2025
+PBG011.csv (3094341 bytes)
+knb-lter-knz.62.13.xml (27960 bytes)
+knb-lter-knz.62.13.txt (7293 bytes)
+knb-lter-knz.62.13.report.xml (31639 bytes)

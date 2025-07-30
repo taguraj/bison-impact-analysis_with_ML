@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.62.13"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/b1e152cc621a32c7aa623bafc016ce6c</alternateIdentifier><shortName>PBG01</shortName>
+    <title>PBG01 Plant species composition in the Patch Burning-grazing Experiment at Konza Prairie</title>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Blair</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone
+        phonetype="voice">785-532-7065</phone>
+      <phone
+        phonetype="facsimile">785-532-6653</phone>
+      <electronicMailAddress>jblair@ksu.edu</electronicMailAddress>
+      <userId
+          directory="http://orcid.org">http://orcid.org/0000-0003-0072-0721</userId>
+    </creator>
+    <metadataProvider>
+      <organizationName>Konza LTER</organizationName>
+      <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+    </metadataProvider>
+    <pubDate>2022-01-31</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>‘PBG’ datasets are associated with a long-term, large-scale study that is addressing the effects of fire-grazing interactions in the context of a Patch-Burn Grazing management system designed to promote grassland heterogeneity. Effects of patch-burn grazing management on plant and animal diversity and the nature and variety of wildlife habitat are being assessed in two replicate management units, each consisting of three pastures (watersheds) designated C03A/C03B/C03C and C3SA/C3SB/C3SC. In each patch-burn grazing unit, one watershed is burned and two that are left unburned in a given year. The burning treatments are rotated annually so that each pasture is burned every third year. Each patch-burn grazing unit is paired with an annually-burned pasture for comparison with traditional grazing systems (C01A and C1SB). All grazing units are stocked with cow/calf pairs from approximately 1 May until 1 Oct at a stocking density equal to 3.2 ha per cow/calf. To examine the impact of patch burning and grazing in all 8 units, we monitor changes in plant species composition, residual biomass, grassland bird populations, insect populations, small mammal populations, soil nutrients, and stream water quality1(1C3SA/C3SB/C3SC unit only). The KSU Department of Animal Science monitors cattle performance, including weight gain and body condition to assess the economic feasibility of using patch-burn management on a widespread basis.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>Disturbance</keyword>
+      <keyword>Populations</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Others</keyword>
+      <keywordThesaurus>Section</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>cattle</keyword>
+      <keyword>grazing</keyword>
+      <keyword>Herbivores</keyword>
+      <keyword>Konza Prairie</keyword>
+      <keyword>Konza Prairie Biological Station</keyword>
+      <keyword>LTER</keyword>
+      <keyword>patch-burn grazing</keyword>
+      <keyword>plant species composition</keyword>
+      <keywordThesaurus>Station Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>Data Use Agreements: The Intellectual Rights within the metadata associated with each KNZ data set determines the exact data and metadata use agreement between the data user and the KNZ LTER site. KNZ LTER data and metadata may be released under the license: CC BY - Attribution (https://creativecommons.org/licenses/by/4.0/). This license lets others distribute, remix, tweak, and build upon KNZ work (even commercially), as long as the KNZ program is credited for the original creation. Alternatively, some KNZ LTER data and metadata may be released into the public domain: CC0 - No Rights Reserved (https://creativecommons.org/share-your-work/public-domain/cc0/). CC0 states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. In either case, users of KNZ data are referred to the following guidelines: "The consumer of these data ("Data User" herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you".</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url
+      function="information">http://lter.konza.ksu.edu/content/pbg01-plant-species-composition-patch-burning-grazing-experiment-konza-prairie</url>
+      </online>
+    </distribution>
+    <distribution
+      id="10.6073/pasta/b1e152cc621a32c7aa623bafc016ce6c" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/b1e152cc621a32c7aa623bafc016ce6c</url></online></distribution><coverage>
+      <geographicCoverage>
+        <geographicDescription>C1SB: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned annually in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5757</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5634</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.1167</northBoundingCoordinate>
+          <southBoundingCoordinate>39.1063</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>C1A: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned annually in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5508</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5385</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0835</northBoundingCoordinate>
+          <southBoundingCoordinate>39.073</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>C3C: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.556</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5385</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0884</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0785</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>C3SA: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.565</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5537</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.1162</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0995</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>C3B: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5534</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5385</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0961</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0874</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>C3A: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5534</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5385</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.098</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0906</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>C3SB: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed burned every 3 years in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5603</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5385</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.112</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0932</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>C3SC: Seasonally grazed (~01 May to ~ Sep. 01) by cattle and scheduled prescribed.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.555</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5385</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.1176</northBoundingCoordinate>
+          <southBoundingCoordinate>39.1053</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-05-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2021-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>
+        <literalLayout>To determine long-term changes in canopy cover, frequency, richness, and diversity in pastures that are rotational burned and seasonally grazed by cows.</literalLayout>
+      </para>
+    </purpose>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>ongoing</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jeffrey</givenName>
+        <surName>Taylor</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone
+        phonetype="voice">785-532-7762</phone>
+      <phone
+        phonetype="facsimile">785-532-6615</phone>
+      <electronicMailAddress>jht@ksu.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Konza</givenName>
+        <surName>LTER</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Division of Biology</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone
+        phonetype="voice">785-532-6729</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://lter.konza.ksu.edu</onlineUrl>
+    </contact>
+    
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress><onlineUrl>https://environmentaldatainitiative.org</onlineUrl><userId
+          directory="https://ror.org">0330j0z60</userId></publisher><pubPlace>Environmental Data Initiative</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Location of Sampling Stations: Plant composition is determined on upland topographic locations. Sampling History: Collection of plant composition data began in 2008. Frequency of Sampling: Plots are sampled twice each year (late-May to Mid-June for the spring census, and August to early-September for the summer census). Generally, cool-season species are sampled in the spring census whereas warm-season species are sampled in the summer census when they are more developed. Variables Measured: Estimated canopy cover of all vascular plant species in each plot. Methods: In each pasture, four 50-m long transects (A, B, C, and D) were established in similar soil types and elevation. Five evenly spaced, permanently marked plots are located in each transect (n= 20 plots for each pasture). A surveyor's pin with a 1.78 m long chain is placed in the conduit marking each plot. Canopy cover of all vascular plant species in a 10-m2 circular area surrounding each conduit are estimated using a modified Daubenmire cover scale (Bailey and Poulton, 1968. Ecology 49:1-13). Cover categories are: Class Cover Mid-point 1 &amp;lt;1% 0.5% 2 1-5% 3.0% 3 5-25% 15.0% 4 25-50% 37.5% 5 50-75% 62.5% 6 75-95% 85.0% 7 95-100% 97.5% Form of Data Output: Raw data contains the cover class value for each species detected in the plot. A value of 1 to 7 indicates the estimated cover class value for the species. For species that are sampled on both census dates, the highest cover class of each plot is used for analyses. Percentage cover for each species is computed by averaging the mid-points of the cover classes for the 20 plots. The presence or absence of a species in the 20 plots can be used to estimate frequency of occurrence. This data set includes canopy cover of all plant species is recorded in 20 circular 10 m2 plots in watersheds of the patch-burn grazing experiment. Plots are arranged in 4 transects (A-D) of 5 plots each. Pre-treatment data was collected in 2008 from all units except C1SB(a, b, c, d), C03A(c, d) and C03C(a, b). Data was collected all units in 2009. Cattle grazing started in 2010 in C03A/C03B/C03C and C01A and in 2011 in C3SA/C3SB/C3SC and C1SB. For the list of Species codes used, please check species list (PDF), or species list in Excel version For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>PBG011</entityName>
+      <entityDescription>This data set includes canopy cover of all plant species is recorded in 20 circular 10 m2 plots in watersheds of the patch-burn grazing experiment. Plots are arranged in 4 transects (A-D) of 5 plots each. Pre-treatment data was collected in 2008 from all units except C1SB, and from all units in 2009. Cattle grazing started in 2010 in C03A/C03B/C03C and C01A and in 2011 in C3SA/C3SB/C3SC and C1SB.</entityDescription>
+      <physical>
+        <objectName>PBG011.csv</objectName>
+        <size>3094341</size>
+        <authentication
+          method="MD5">b2001c282c000867d1ec7ae512d435b2</authentication>
+        <authentication
+              method="SHA-1">12402b5f46fb49d68ce2437266cbee467e9a8d5c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url
+        function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-knz/62/13/661fed02ae10ada7086c1faaefb3a88c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeLabel>DataCode</attributeLabel>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeLabel>RecType</attributeLabel>
+          <attributeDefinition>Record type</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeLabel>RecYear</attributeLabel>
+          <attributeDefinition>Year of sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Year (YYYY)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecMonth</attributeName>
+          <attributeLabel>RecMonth</attributeLabel>
+          <attributeDefinition>month of record</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecDay</attributeName>
+          <attributeLabel>RecDay</attributeLabel>
+          <attributeDefinition>day of record</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watershed</attributeName>
+          <attributeLabel>Watershed</attributeLabel>
+          <attributeDefinition>Watershed of treatment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Watershed of treatment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SoilType</attributeName>
+          <attributeLabel>SoilType</attributeLabel>
+          <attributeDefinition>Soil type in which data were collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Soil type in which data were collected</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeLabel>Plot</attributeLabel>
+          <attributeDefinition>Plot Number</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SpeCode</attributeName>
+          <attributeLabel>SpeCode</attributeLabel>
+          <attributeDefinition>Species code</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AB_genus</attributeName>
+          <attributeLabel>AB_genus</attributeLabel>
+          <attributeDefinition>Abbreviation of genus</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Abbreviation of genus</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ab_species</attributeName>
+          <attributeLabel>Ab_species</attributeLabel>
+          <attributeDefinition>Abbreviation of species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Abbreviation of species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CoverClass</attributeName>
+          <attributeLabel>CoverClass</attributeLabel>
+          <attributeDefinition>species cover class</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>0-1% cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>1-5% cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>5-25% cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>25-50% cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>50-75% cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>75-95% cover</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>95-100% cover</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Pid</attributeName>
+          <attributeLabel>Pid</attributeLabel>
+          <attributeDefinition>Personnel id who collected the data</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>comments for the data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments for the data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>61216</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList
+        xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit id="Year (YYYY)">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
