@@ -1,0 +1,16 @@
+---
+title: "Bison_Project"
+output: html_document
+date: "2025-07-30"
+---
+load packages
+```{r}
+library(tidyverse)
+
+```
+
+load data
+```{r}
+vegetation<- read.csv()
+```
+

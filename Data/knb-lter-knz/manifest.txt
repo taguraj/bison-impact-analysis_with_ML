@@ -1,0 +1,5 @@
+Manifest file for knb-lter-knz.69.24.zip created on Wed Jul 30 00:50:35 UTC 2025
+PVC021.csv (45721862 bytes)
+knb-lter-knz.69.24.xml (45363 bytes)
+knb-lter-knz.69.24.txt (25002 bytes)
+knb-lter-knz.69.24.report.xml (31889 bytes)
